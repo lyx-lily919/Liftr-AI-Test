@@ -1,0 +1,326 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - button "Skip to main content"
+    - banner "Microsoft Azure" [ref=e3]:
+      - button "Show Microsoft Cloud menu" [ref=e5] [cursor=pointer]:
+        - img [ref=e7]
+      - button "Show portal menu" [ref=e9] [cursor=pointer]:
+        - img [ref=e10]
+      - heading "Microsoft Azure" [level=1] [ref=e12]:
+        - link "Microsoft Azure" [ref=e13] [cursor=pointer]:
+          - /url: "#home"
+      - search [ref=e14]:
+        - generic [ref=e15]:
+          - img [ref=e17]
+          - combobox "Search resources, services, and docs (G+/)" [expanded] [ref=e388]
+      - button "Copilot" [ref=e21] [cursor=pointer]:
+        - img [ref=e23]
+        - generic [ref=e25]: Copilot
+      - button "More portal tools" [ref=e28] [cursor=pointer]:
+        - img [ref=e30]
+      - button "Account menu Currently signed in as v-yixueli@microsoft.com, under Microsoft (microsoft.onmicrosoft.com) tenant" [ref=e33] [cursor=pointer]:
+        - 'generic "Name: Yixue Li Email: v-yixueli@microsoft.com Directory: Microsoft (72f988bf-86f1-41af-91ab-2d7cd011db47) Domain: microsoft.onmicrosoft.com Your sign in used multifactor authentication." [ref=e34]':
+          - img [ref=e37]
+    - main [ref=e42]:
+      - generic [ref=e630]:
+        - navigation "Navigation history" [ref=e633]:
+          - navigation "breadcrumb" [ref=e636]:
+            - list [ref=e637]:
+              - listitem [ref=e638]:
+                - link "Home" [ref=e639] [cursor=pointer]:
+                  - /url: "#home"
+        - generic [ref=e641]:
+          - region "NGINXaaS Microsoft (microsoft.onmicrosoft.com)" [ref=e642]:
+            - generic "NGINXaaS Microsoft (microsoft.onmicrosoft.com)" [ref=e645]:
+              - generic [ref=e647]:
+                - generic [ref=e648]:
+                  - heading "NGINXaaS" [level=2] [ref=e649]: NGINXaaS
+                  - generic [ref=e650]:
+                    - button "Add service to favorites" [ref=e651] [cursor=pointer]:
+                      - img [ref=e654]
+                    - button "More content actions" [ref=e657] [cursor=pointer]:
+                      - img [ref=e660]
+                    - group "Chat suggestions from Copilot" [ref=e664]:
+                      - button "Chat suggestions from Copilot" [expanded] [ref=e666]:
+                        - img [ref=e669]
+                      - button "Loading prompts..." [ref=e671]:
+                        - progressbar [ref=e672]
+                    - button "Close content 'NGINXaaS'" [active] [ref=e674] [cursor=pointer]:
+                      - img [ref=e677]
+                - generic [ref=e680]: Microsoft (microsoft.onmicrosoft.com)
+          - iframe [ref=e691]:
+            - generic [active] [ref=f2e1]:
+              - generic [ref=f2e10]:
+                - menubar [ref=f2e14]:
+                  - group [ref=f2e15]:
+                    - menuitem "Manage view" [ref=f2e16] [cursor=pointer]:
+                      - generic [ref=f2e17]:
+                        - generic [ref=f2e18]: 
+                        - generic [ref=f2e20]: Manage view
+                        - generic [ref=f2e21]: 
+                    - menuitem "Refresh" [ref=f2e22] [cursor=pointer]:
+                      - generic [ref=f2e23]:
+                        - generic [ref=f2e24]: 
+                        - generic [ref=f2e26]: Refresh
+                    - menuitem "Export to CSV" [ref=f2e27] [cursor=pointer]:
+                      - generic [ref=f2e28]:
+                        - generic [ref=f2e29]: 
+                        - generic [ref=f2e31]: Export to CSV
+                    - menuitem "Open query" [ref=f2e32] [cursor=pointer]:
+                      - generic [ref=f2e33]:
+                        - generic [ref=f2e34]: 
+                        - generic [ref=f2e36]: Open query
+                    - generic [ref=f2e37]:
+                      - separator
+                    - menuitem "Assign tags" [disabled] [ref=f2e38]:
+                      - generic [ref=f2e39]:
+                        - generic [ref=f2e40]: 
+                        - generic [ref=f2e42]: Assign tags
+                    - menuitem "Delete" [disabled] [ref=f2e43]:
+                      - generic [ref=f2e44]:
+                        - img [ref=f2e47]
+                        - generic [ref=f2e50]: Delete
+                    - menuitem "More commands" [ref=f2e52] [cursor=pointer]:
+                      - generic [ref=f2e54]: 
+                  - group [ref=f2e55]:
+                    - menuitem "Group by none" [ref=f2e56] [cursor=pointer]:
+                      - generic [ref=f2e57]:
+                        - generic [ref=f2e58]: 
+                        - generic [ref=f2e60]: Group by none
+                        - generic [ref=f2e61]: 
+                - generic [ref=f2e62]:
+                  - generic [ref=f2e64]:
+                    - generic [ref=f2e65]:
+                      - generic [ref=f2e67]: 
+                      - searchbox "Filter for any field..." [ref=f2e68]
+                    - generic "Collection of filters for the resources." [ref=f2e69]:
+                      - list [ref=f2e70]:
+                        - generic [ref=f2e71]:
+                          - listitem [ref=f2e72]:
+                            - button "Editor to filter the results by subscriptions. Subscription equals all" [ref=f2e74]:
+                              - generic [ref=f2e76]:
+                                - generic [ref=f2e77]: Subscription
+                                - generic [ref=f2e78]: equals
+                                - generic [ref=f2e79]: all
+                          - listitem [ref=f2e80]:
+                            - generic [ref=f2e81]:
+                              - button "Editor to filter the results by column value. Resource Group equals all" [ref=f2e82]:
+                                - generic [ref=f2e84]:
+                                  - generic [ref=f2e85]: Resource Group
+                                  - generic [ref=f2e86]: equals
+                                  - generic [ref=f2e87]: all
+                              - button "Remove Resource Group equals all" [ref=f2e88] [cursor=pointer]:
+                                - generic [ref=f2e89]: 
+                          - listitem [ref=f2e90]:
+                            - generic [ref=f2e91]:
+                              - button "Editor to filter the results by column value. Location equals all" [ref=f2e92]:
+                                - generic [ref=f2e94]:
+                                  - generic [ref=f2e95]: Location
+                                  - generic [ref=f2e96]: equals
+                                  - generic [ref=f2e97]: all
+                              - button "Remove Location equals all" [ref=f2e98] [cursor=pointer]:
+                                - generic [ref=f2e99]: 
+                          - listitem [ref=f2e100]:
+                            - button "Button to add a new Pill with display text - Add filter" [ref=f2e102]:
+                              - generic [ref=f2e103]:
+                                - img [ref=f2e105]
+                                - generic [ref=f2e107]: Add filter
+                  - generic [ref=f2e108]:
+                    - grid [ref=f2e113]:
+                      - row "Select all rows Name Type Resource Group Location Subscription Tags" [ref=f2e114]:
+                        - columnheader "Select all rows" [ref=f2e115]:
+                          - checkbox "Select all rows" [ref=f2e117]:
+                            - generic [ref=f2e118]:
+                              - generic [ref=f2e119]: 
+                              - generic [ref=f2e120]: 
+                        - generic [ref=f2e121]: Select all rows
+                        - columnheader "Name" [ref=f2e122]:
+                          - button "Name" [ref=f2e124]:
+                            - generic [ref=f2e125]: Name
+                            - generic [ref=f2e126]: 
+                        - button [ref=f2e127]
+                        - columnheader "Type" [ref=f2e128]:
+                          - button "Type" [ref=f2e130]:
+                            - generic [ref=f2e131]: Type
+                        - button [ref=f2e132]
+                        - columnheader "Resource Group" [ref=f2e133]:
+                          - button "Resource Group" [ref=f2e135]:
+                            - generic [ref=f2e136]: Resource Group
+                        - button [ref=f2e137]
+                        - columnheader "Location" [ref=f2e138]:
+                          - button "Location" [ref=f2e140]:
+                            - generic [ref=f2e141]: Location
+                        - button [ref=f2e142]
+                        - columnheader "Subscription" [ref=f2e143]:
+                          - button "Subscription" [ref=f2e145]:
+                            - generic [ref=f2e146]: Subscription
+                        - button [ref=f2e147]
+                        - columnheader "Tags" [ref=f2e148]:
+                          - button "Tags" [ref=f2e150]:
+                            - generic [ref=f2e151]: Tags
+                        - button [ref=f2e152]
+                      - generic [ref=f2e153]:
+                        - row "Select row NGINX-hex-source-RGB-02 lyx-preview-0423 Open context menu NGINXaaS lyx-liftr-test West Central US Liftr-Nginx-Test" [ref=f2e154]:
+                          - gridcell "Select row" [ref=f2e155]:
+                            - checkbox "Select row" [ref=f2e156]:
+                              - generic [ref=f2e157]:
+                                - generic [ref=f2e158]: 
+                                - generic [ref=f2e159]: 
+                          - gridcell "NGINX-hex-source-RGB-02 lyx-preview-0423 Open context menu" [ref=f2e160]:
+                            - generic [ref=f2e161]:
+                              - img "NGINX-hex-source-RGB-02" [ref=f2e164]
+                              - link "lyx-preview-0423" [ref=f2e168] [cursor=pointer]:
+                                - /url: https://portal.azure.com#resource/subscriptions/e3853e83-0d02-4fb3-b88f-05b5fd21aee2/resourceGroups/lyx-liftr-test/providers/Nginx.NginxPlus/nginxDeployments/lyx-preview-0423
+                              - button "Open context menu" [ref=f2e169] [cursor=pointer]:
+                                - generic [ref=f2e171]: 
+                          - gridcell "NGINXaaS" [ref=f2e172]
+                          - gridcell "lyx-liftr-test" [ref=f2e173]:
+                            - link "lyx-liftr-test" [ref=f2e174] [cursor=pointer]:
+                              - /url: https://portal.azure.com#resource/subscriptions/e3853e83-0d02-4fb3-b88f-05b5fd21aee2/resourceGroups/lyx-liftr-test
+                          - gridcell "West Central US" [ref=f2e175]
+                          - gridcell "Liftr-Nginx-Test" [ref=f2e176]:
+                            - link "Liftr-Nginx-Test" [ref=f2e177] [cursor=pointer]:
+                              - /url: https://portal.azure.com#resource/subscriptions/e3853e83-0d02-4fb3-b88f-05b5fd21aee2
+                          - gridcell [ref=f2e178]
+                        - row "Select row NGINX-hex-source-RGB-02 lyx-preview-developer Open context menu NGINXaaS lyx-liftr-test West Central US Liftr-Nginx-Test" [ref=f2e179]:
+                          - gridcell "Select row" [ref=f2e180]:
+                            - checkbox "Select row" [ref=f2e181]:
+                              - generic [ref=f2e182]:
+                                - generic [ref=f2e183]: 
+                                - generic [ref=f2e184]: 
+                          - gridcell "NGINX-hex-source-RGB-02 lyx-preview-developer Open context menu" [ref=f2e185]:
+                            - generic [ref=f2e186]:
+                              - img "NGINX-hex-source-RGB-02" [ref=f2e189]
+                              - link "lyx-preview-developer" [ref=f2e193] [cursor=pointer]:
+                                - /url: https://portal.azure.com#resource/subscriptions/e3853e83-0d02-4fb3-b88f-05b5fd21aee2/resourceGroups/lyx-liftr-test/providers/Nginx.NginxPlus/nginxDeployments/lyx-preview-developer
+                              - button "Open context menu" [ref=f2e194] [cursor=pointer]:
+                                - generic [ref=f2e196]: 
+                          - gridcell "NGINXaaS" [ref=f2e197]
+                          - gridcell "lyx-liftr-test" [ref=f2e198]:
+                            - link "lyx-liftr-test" [ref=f2e199] [cursor=pointer]:
+                              - /url: https://portal.azure.com#resource/subscriptions/e3853e83-0d02-4fb3-b88f-05b5fd21aee2/resourceGroups/lyx-liftr-test
+                          - gridcell "West Central US" [ref=f2e200]
+                          - gridcell "Liftr-Nginx-Test" [ref=f2e201]:
+                            - link "Liftr-Nginx-Test" [ref=f2e202] [cursor=pointer]:
+                              - /url: https://portal.azure.com#resource/subscriptions/e3853e83-0d02-4fb3-b88f-05b5fd21aee2
+                          - gridcell [ref=f2e203]
+                        - row "Select row NGINX-hex-source-RGB-02 lyx-stage-0423 Open context menu NGINXaaS lyx-liftr-test West Central US Liftr-Nginx-Test" [ref=f2e204]:
+                          - gridcell "Select row" [ref=f2e205]:
+                            - checkbox "Select row" [ref=f2e206]:
+                              - generic [ref=f2e207]:
+                                - generic [ref=f2e208]: 
+                                - generic [ref=f2e209]: 
+                          - gridcell "NGINX-hex-source-RGB-02 lyx-stage-0423 Open context menu" [ref=f2e210]:
+                            - generic [ref=f2e211]:
+                              - img "NGINX-hex-source-RGB-02" [ref=f2e214]
+                              - link "lyx-stage-0423" [ref=f2e218] [cursor=pointer]:
+                                - /url: https://portal.azure.com#resource/subscriptions/e3853e83-0d02-4fb3-b88f-05b5fd21aee2/resourceGroups/lyx-liftr-test/providers/Nginx.NginxPlus/nginxDeployments/lyx-stage-0423
+                              - button "Open context menu" [ref=f2e219] [cursor=pointer]:
+                                - generic [ref=f2e221]: 
+                          - gridcell "NGINXaaS" [ref=f2e222]
+                          - gridcell "lyx-liftr-test" [ref=f2e223]:
+                            - link "lyx-liftr-test" [ref=f2e224] [cursor=pointer]:
+                              - /url: https://portal.azure.com#resource/subscriptions/e3853e83-0d02-4fb3-b88f-05b5fd21aee2/resourceGroups/lyx-liftr-test
+                          - gridcell "West Central US" [ref=f2e225]
+                          - gridcell "Liftr-Nginx-Test" [ref=f2e226]:
+                            - link "Liftr-Nginx-Test" [ref=f2e227] [cursor=pointer]:
+                              - /url: https://portal.azure.com#resource/subscriptions/e3853e83-0d02-4fb3-b88f-05b5fd21aee2
+                          - gridcell [ref=f2e228]
+                        - row "Select row NGINX-hex-source-RGB-02 lyx-stage-developer Open context menu NGINXaaS lyx-liftr-test West Central US Liftr-Nginx-Test" [ref=f2e229]:
+                          - gridcell "Select row" [ref=f2e230]:
+                            - checkbox "Select row" [ref=f2e231]:
+                              - generic [ref=f2e232]:
+                                - generic [ref=f2e233]: 
+                                - generic [ref=f2e234]: 
+                          - gridcell "NGINX-hex-source-RGB-02 lyx-stage-developer Open context menu" [ref=f2e235]:
+                            - generic [ref=f2e236]:
+                              - img "NGINX-hex-source-RGB-02" [ref=f2e239]
+                              - link "lyx-stage-developer" [ref=f2e243] [cursor=pointer]:
+                                - /url: https://portal.azure.com#resource/subscriptions/e3853e83-0d02-4fb3-b88f-05b5fd21aee2/resourceGroups/lyx-liftr-test/providers/Nginx.NginxPlus/nginxDeployments/lyx-stage-developer
+                              - button "Open context menu" [ref=f2e244] [cursor=pointer]:
+                                - generic [ref=f2e246]: 
+                          - gridcell "NGINXaaS" [ref=f2e247]
+                          - gridcell "lyx-liftr-test" [ref=f2e248]:
+                            - link "lyx-liftr-test" [ref=f2e249] [cursor=pointer]:
+                              - /url: https://portal.azure.com#resource/subscriptions/e3853e83-0d02-4fb3-b88f-05b5fd21aee2/resourceGroups/lyx-liftr-test
+                          - gridcell "West Central US" [ref=f2e250]
+                          - gridcell "Liftr-Nginx-Test" [ref=f2e251]:
+                            - link "Liftr-Nginx-Test" [ref=f2e252] [cursor=pointer]:
+                              - /url: https://portal.azure.com#resource/subscriptions/e3853e83-0d02-4fb3-b88f-05b5fd21aee2
+                          - gridcell [ref=f2e253]
+                    - generic [ref=f2e254]:
+                      - status:
+                        - generic [ref=f2e255]: 4 results found
+                      - generic [ref=f2e256]:
+                        - generic [ref=f2e258]:
+                          - generic [ref=f2e259]: "Showing 1 - 4 of 4. Display count:"
+                          - combobox "Showing 1 - 4 of 4. Display count:" [ref=f2e261]:
+                            - generic [ref=f2e262] [cursor=pointer]: auto
+                            - generic [ref=f2e263] [cursor=pointer]:
+                              - generic: 
+                        - generic [ref=f2e264]:
+                          - navigation "Pagination":
+                            - list
+                        - generic [ref=f2e267]:
+                          - img [ref=f2e269]
+                          - button "Give feedback" [ref=f2e271] [cursor=pointer]
+              - img
+              - img
+              - img
+  - generic:
+    - generic:
+      - generic: List of search results
+      - generic: List of search history, recent services and resources
+    - generic:
+      - generic: Content is loading.
+      - generic: Content is ready.
+      - generic: Content is ready.
+  - img [ref=e356]
+  - img [ref=e357]
+  - img [ref=e358]
+  - img [ref=e359]
+  - img [ref=e360]
+  - img [ref=e361]
+  - img [ref=e362]
+  - img [ref=e363]
+  - img [ref=e364]
+  - img [ref=e365]
+  - img [ref=e366]
+  - img [ref=e367]
+  - img [ref=e368]
+  - img [ref=e369]
+  - img [ref=e370]
+  - img [ref=e371]
+  - img [ref=e372]
+  - img [ref=e373]
+  - img [ref=e374]
+  - img [ref=e375]
+  - img [ref=e376]
+  - img [ref=e377]
+  - img [ref=e378]
+  - img [ref=e379]
+  - img [ref=e380]
+  - img [ref=e381]
+  - img [ref=e382]
+  - img [ref=e383]
+  - img [ref=e384]
+  - img [ref=e385]
+  - img [ref=e386]
+  - img [ref=e387]
+  - img [ref=e520]
+  - img [ref=e521]
+  - img [ref=e625]
+  - img [ref=e626]
+  - img [ref=e627]
+  - img [ref=e628]
+  - img [ref=e629]
+  - img [ref=e692]
+  - img [ref=e693]
+  - img [ref=e694]
+  - img [ref=e695]
+  - img [ref=e696]
+  - img [ref=e697]
+  - img [ref=e698]
+  - img [ref=e699]
+  - img [ref=e700]
+  - img [ref=e701]

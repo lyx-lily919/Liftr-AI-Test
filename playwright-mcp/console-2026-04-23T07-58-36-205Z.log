@@ -1,0 +1,76 @@
+[    2192ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'. @ :0
+[    2192ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'battery'. @ :0
+[    6633ms] [INFO] BSSO Telemetry: {"result":"Error","error":"NoExtension","type":"ChromeSsoTelemetry","data":{},"traces":["BrowserSSO Initialized","Creating ChromeBrowserCore provider","Sending message for method CreateProviderAsync","Received message for method CreateProviderAsync","Error: ChromeBrowserCore error NoExtension: Extension is not installed."]} @ https://aadcdn.msauth.net/shared/1.0/content/js/BssoInterrupt_Core_G2W_Wtatbc34u60lFUrLlg2.js:17
+[    6763ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://login.microsoftonline.com/favicon.ico:0
+[   10842ms] [ERROR] Framing 'https://portal.azure.com/' violates the following Content Security Policy directive: "frame-ancestors 'self'". The request has been blocked.
+ @ :0
+[   24619ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'. @ :0
+[   24619ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'battery'. @ :0
+[   26343ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ https://portal.azure.com/?feature.customportal=false&feature.canmodifystamps=true&Azure_Marketplace_Nginx=stage1&Azure_Marketplace_Nginx_assettypeoptions=%7B%22Nginx%22%3A%7B%22options%22%3A%22%22%7D%7D&microsoft_azure_marketplace_ItemHideKey=Azure_Marketplace_NGINX#home:0
+[   27418ms] [LOG] Version: 17.287.0.1
+Session: c6b9bb6df3d94b82bede3823ebe3a593 @ https://portal.azure.com/Content/Dynamic/6UQd5rGMMUKG.js:382
+[   27795ms] [LOG] Extension: HubsExtension @ blob:https://portal.azure.com/158e562f-a68b-47eb-82d4-2d16bbc839a7:0
+[   27903ms] [LOG] Extension: Microsoft_Azure_Copilot @ blob:https://portal.azure.com/158e562f-a68b-47eb-82d4-2d16bbc839a7:0
+[   27958ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'. @ :0
+[   27959ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'battery'. @ :0
+[   28508ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://graph.microsoft.com/v1.0/me/photo/$value:0
+[   62754ms] [LOG] Extension: Microsoft_AAD_IAM @ blob:https://portal.azure.com/158e562f-a68b-47eb-82d4-2d16bbc839a7:0
+[  127218ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://portal.azure.com/Content/Static/Fonts/FluentIcons/fabric-icons-a13498cf.woff @ https://portal.azure.com/Content/Dynamic/Hvin_MuaMDG1.js:278
+[  127218ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://portal.azure.com/Content/Static/Fonts/FluentIcons/fabric-icons-0-467ee27f.woff @ https://portal.azure.com/Content/Dynamic/Hvin_MuaMDG1.js:278
+[  127218ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://portal.azure.com/Content/Static/Fonts/FluentIcons/fabric-icons-5-f95ba260.woff @ https://portal.azure.com/Content/Dynamic/Hvin_MuaMDG1.js:278
+[  127218ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://portal.azure.com/Content/Static/Fonts/FluentIcons/fabric-icons-9-c6162b42.woff @ https://portal.azure.com/Content/Dynamic/Hvin_MuaMDG1.js:278
+[  129036ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'. @ :0
+[  129036ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'battery'. @ :0
+[  129112ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://hosting.portal.azure.net/copilotmetadata/Content/1.300.03382.401/generated/Loc/en/extensions/hubsextension_browseresource_reactview_prompts.json:0
+[  129392ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://hosting.portal.azure.net/copilotmetadata/Content/1.300.03382.401/generated/Loc/en/extensions/hubsextension_defaultprompts.json:0
+[  131310ms] [LOG] Extension: Azure_Marketplace_NGINX @ blob:https://portal.azure.com/158e562f-a68b-47eb-82d4-2d16bbc839a7:0
+[  153583ms] [LOG] Extension: Microsoft_Azure_CreateUIDef @ blob:https://portal.azure.com/158e562f-a68b-47eb-82d4-2d16bbc839a7:0
+[  154037ms] [ERROR] [Microsoft_Azure_CreateUIDef]  4:01:10 PM Error 0 Error: Could not log telemetry, size is over 15000 {error: Object} {} {source: DxBaseBlade, systemOptions: Object, additional: Object} @ https://portal.azure.com/Content/Dynamic/dy-Iu22OYmEn.js:0
+[  155671ms] [ERROR] [Microsoft_Azure_CreateUIDef]  4:01:11 PM Error 0 Error: getNestedPropertyValue - Null value referenced.
+Path: properties.ipConfiguration {error: Object} {} {source: c, systemOptions: Object, additional: Object} @ https://portal.azure.com/Content/Dynamic/dy-Iu22OYmEn.js:0
+[  155672ms] [ERROR] [Microsoft_Azure_CreateUIDef]  4:01:11 PM Error 0 Error: getNestedPropertyValue - Null value referenced.
+Path: properties.ipConfiguration {error: Object} {} {source: c, systemOptions: Object, additional: Object} @ https://portal.azure.com/Content/Dynamic/dy-Iu22OYmEn.js:0
+[  155673ms] [ERROR] [Microsoft_Azure_CreateUIDef]  4:01:11 PM Error 0 Error: getNestedPropertyValue - Null value referenced.
+Path: properties.ipConfiguration {error: Object} {} {source: c, systemOptions: Object, additional: Object} @ https://portal.azure.com/Content/Dynamic/dy-Iu22OYmEn.js:0
+[  155674ms] [ERROR] [Microsoft_Azure_CreateUIDef]  4:01:11 PM Error 0 Error: getNestedPropertyValue - Null value referenced.
+Path: properties.ipConfiguration {error: Object} {} {source: c, systemOptions: Object, additional: Object} @ https://portal.azure.com/Content/Dynamic/dy-Iu22OYmEn.js:0
+[  155676ms] [ERROR] [Microsoft_Azure_CreateUIDef]  4:01:11 PM Error 0 Error: getNestedPropertyValue - Null value referenced.
+Path: properties.ipConfiguration {error: Object} {} {source: c, systemOptions: Object, additional: Object} @ https://portal.azure.com/Content/Dynamic/dy-Iu22OYmEn.js:0
+[  155677ms] [ERROR] [Microsoft_Azure_CreateUIDef]  4:01:11 PM Error 0 Error: getNestedPropertyValue - Null value referenced.
+Path: properties.ipConfiguration {error: Object} {} {source: c, systemOptions: Object, additional: Object} @ https://portal.azure.com/Content/Dynamic/dy-Iu22OYmEn.js:0
+[  155678ms] [ERROR] [Microsoft_Azure_CreateUIDef]  4:01:11 PM Error 0 Error: getNestedPropertyValue - Null value referenced.
+Path: properties.ipConfiguration {error: Object} {} {source: c, systemOptions: Object, additional: Object} @ https://portal.azure.com/Content/Dynamic/dy-Iu22OYmEn.js:0
+[  155679ms] [ERROR] [Microsoft_Azure_CreateUIDef]  4:01:11 PM Error 0 Error: getNestedPropertyValue - Null value referenced.
+Path: properties.ipConfiguration {error: Object} {} {source: c, systemOptions: Object, additional: Object} @ https://portal.azure.com/Content/Dynamic/dy-Iu22OYmEn.js:0
+[  155680ms] [ERROR] [Microsoft_Azure_CreateUIDef]  4:01:11 PM Error 0 Error: getNestedPropertyValue - Null value referenced.
+Path: properties.ipConfiguration {error: Object} {} {source: c, systemOptions: Object, additional: Object} @ https://portal.azure.com/Content/Dynamic/dy-Iu22OYmEn.js:0
+[  155681ms] [ERROR] [Microsoft_Azure_CreateUIDef]  4:01:11 PM Error 0 Error: getNestedPropertyValue - Null value referenced.
+Path: properties.ipConfiguration {error: Object} {} {source: c, systemOptions: Object, additional: Object} @ https://portal.azure.com/Content/Dynamic/dy-Iu22OYmEn.js:0
+[  155682ms] [ERROR] [Microsoft_Azure_CreateUIDef]  4:01:11 PM Error 0 Error: getNestedPropertyValue - Null value referenced.
+Path: properties.ipConfiguration {error: Object} {} {source: c, systemOptions: Object, additional: Object} @ https://portal.azure.com/Content/Dynamic/dy-Iu22OYmEn.js:0
+[  155682ms] [ERROR] [Microsoft_Azure_CreateUIDef]  4:01:11 PM Error 0 Error: getNestedPropertyValue - Null value referenced.
+Path: properties.ipConfiguration {error: Object} {} {source: c, systemOptions: Object, additional: Object} @ https://portal.azure.com/Content/Dynamic/dy-Iu22OYmEn.js:0
+[  156249ms] [ERROR] [Microsoft_Azure_CreateUIDef]  4:01:12 PM Error 0 Error: getNestedPropertyValue - Null value referenced.
+Path: properties.ipConfiguration {error: Object} {} {source: c, systemOptions: Object, additional: Object} @ https://portal.azure.com/Content/Dynamic/dy-Iu22OYmEn.js:0
+[  156249ms] [ERROR] [Microsoft_Azure_CreateUIDef]  4:01:12 PM Error 0 Error: getNestedPropertyValue - Null value referenced.
+Path: properties.ipConfiguration {error: Object} {} {source: c, systemOptions: Object, additional: Object} @ https://portal.azure.com/Content/Dynamic/dy-Iu22OYmEn.js:0
+[  156250ms] [ERROR] [Microsoft_Azure_CreateUIDef]  4:01:12 PM Error 0 Error: getNestedPropertyValue - Null value referenced.
+Path: properties.ipConfiguration {error: Object} {} {source: c, systemOptions: Object, additional: Object} @ https://portal.azure.com/Content/Dynamic/dy-Iu22OYmEn.js:0
+[  156250ms] [ERROR] [Microsoft_Azure_CreateUIDef]  4:01:12 PM Error 0 Error: getNestedPropertyValue - Null value referenced.
+Path: properties.ipConfiguration {error: Object} {} {source: c, systemOptions: Object, additional: Object} @ https://portal.azure.com/Content/Dynamic/dy-Iu22OYmEn.js:0
+[  156251ms] [ERROR] [Microsoft_Azure_CreateUIDef]  4:01:12 PM Error 0 Error: getNestedPropertyValue - Null value referenced.
+Path: properties.ipConfiguration {error: Object} {} {source: c, systemOptions: Object, additional: Object} @ https://portal.azure.com/Content/Dynamic/dy-Iu22OYmEn.js:0
+[  156251ms] [ERROR] [Microsoft_Azure_CreateUIDef]  4:01:12 PM Error 0 Error: getNestedPropertyValue - Null value referenced.
+Path: properties.ipConfiguration {error: Object} {} {source: c, systemOptions: Object, additional: Object} @ https://portal.azure.com/Content/Dynamic/dy-Iu22OYmEn.js:0
+[  156252ms] [ERROR] [Microsoft_Azure_CreateUIDef]  4:01:12 PM Error 0 Error: getNestedPropertyValue - Null value referenced.
+Path: properties.ipConfiguration {error: Object} {} {source: c, systemOptions: Object, additional: Object} @ https://portal.azure.com/Content/Dynamic/dy-Iu22OYmEn.js:0
+[  156253ms] [ERROR] [Microsoft_Azure_CreateUIDef]  4:01:12 PM Error 0 Error: getNestedPropertyValue - Null value referenced.
+Path: properties.ipConfiguration {error: Object} {} {source: c, systemOptions: Object, additional: Object} @ https://portal.azure.com/Content/Dynamic/dy-Iu22OYmEn.js:0
+[  156253ms] [ERROR] [Microsoft_Azure_CreateUIDef]  4:01:12 PM Error 0 Error: getNestedPropertyValue - Null value referenced.
+Path: properties.ipConfiguration {error: Object} {} {source: c, systemOptions: Object, additional: Object} @ https://portal.azure.com/Content/Dynamic/dy-Iu22OYmEn.js:0
+[  156254ms] [ERROR] [Microsoft_Azure_CreateUIDef]  4:01:12 PM Error 0 Error: getNestedPropertyValue - Null value referenced.
+Path: properties.ipConfiguration {error: Object} {} {source: c, systemOptions: Object, additional: Object} @ https://portal.azure.com/Content/Dynamic/dy-Iu22OYmEn.js:0
+[  156254ms] [ERROR] [Microsoft_Azure_CreateUIDef]  4:01:12 PM Error 0 Error: getNestedPropertyValue - Null value referenced.
+Path: properties.ipConfiguration {error: Object} {} {source: c, systemOptions: Object, additional: Object} @ https://portal.azure.com/Content/Dynamic/dy-Iu22OYmEn.js:0
+[  156255ms] [ERROR] [Microsoft_Azure_CreateUIDef]  4:01:12 PM Error 0 Error: getNestedPropertyValue - Null value referenced.
+Path: properties.ipConfiguration {error: Object} {} {source: c, systemOptions: Object, additional: Object} @ https://portal.azure.com/Content/Dynamic/dy-Iu22OYmEn.js:0

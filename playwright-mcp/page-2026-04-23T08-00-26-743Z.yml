@@ -1,0 +1,374 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - button "Skip to main content"
+    - banner "Microsoft Azure" [ref=e3]:
+      - button "Show Microsoft Cloud menu" [ref=e5] [cursor=pointer]:
+        - img [ref=e7]
+      - button "Show portal menu" [ref=e9] [cursor=pointer]:
+        - img [ref=e10]
+      - heading "Microsoft Azure" [level=1] [ref=e12]:
+        - link "Microsoft Azure" [ref=e13] [cursor=pointer]:
+          - /url: "#home"
+      - search [ref=e14]:
+        - generic [ref=e15]:
+          - img [ref=e17]
+          - combobox "Search resources, services, and docs (G+/)" [expanded] [active] [ref=e388]: nginxaas
+          - img [ref=e522] [cursor=pointer]
+        - listbox "List of search results" [ref=e524]:
+          - generic [ref=e390]:
+            - generic [ref=e391]:
+              - list [ref=e526]:
+                - listitem [ref=e527]:
+                  - generic [ref=e528] [cursor=pointer]:
+                    - button "Filter, All" [ref=e529]:
+                      - generic [ref=e532]: All
+                    - generic: Use 'Space' or 'Enter' key to enable edit mode
+                - listitem [ref=e533]:
+                  - generic [ref=e534] [cursor=pointer]:
+                    - button "Filter, Services (1)" [ref=e535]:
+                      - generic [ref=e537]:
+                        - generic [ref=e538]: Services
+                        - generic [ref=e540]: (1)
+                    - generic: Use 'Space' or 'Enter' key to enable edit mode
+                - button "More (5)" [ref=e542] [cursor=pointer]:
+                  - img [ref=e544]
+                  - generic [ref=e546]: More (5)
+              - generic [ref=e547]:
+                - generic [ref=e548]:
+                  - generic [ref=e550]: Services
+                  - group "Services" [ref=e552]:
+                    - option "NGINXaaS" [ref=e553] [cursor=pointer]:
+                      - generic [ref=e554]:
+                        - img [ref=e556]
+                        - generic [ref=e560]: NGINXaaS
+                - generic [ref=e561]:
+                  - generic [ref=e563]: Marketplace
+                  - group "Marketplace" [ref=e565]:
+                    - option "F5 NGINXaaS – SaaS Load Balancer and ADC – Azure Native ISV Service" [ref=e566] [cursor=pointer]:
+                      - generic [ref=e567]:
+                        - img [ref=e569]
+                        - generic [ref=e573]: F5 NGINXaaS – SaaS Load Balancer and ADC – Azure Native ISV Service
+                - generic [ref=e574]:
+                  - generic [ref=e575]:
+                    - generic [ref=e576]: Documentation
+                    - generic [ref=e579]: See more
+                  - group "Documentation" [ref=e580]:
+                    - option "What is NGINXaaS - Azure Native Integrations" [ref=e581] [cursor=pointer]:
+                      - generic [ref=e582]:
+                        - generic [ref=e585]: What is NGINXaaS - Azure Native Integrations
+                        - img [ref=e588]
+                    - option "Azure Native NGINXaaS frequently asked questions - Azure Native Integrations" [ref=e590] [cursor=pointer]:
+                      - generic [ref=e591]:
+                        - generic [ref=e594]: Azure Native NGINXaaS frequently asked questions - Azure Native Integrations
+                        - img [ref=e597]
+                    - option "NGINXaaS - Azure Native Integrations" [ref=e599] [cursor=pointer]:
+                      - generic [ref=e600]:
+                        - generic [ref=e603]: NGINXaaS - Azure Native Integrations
+                        - img [ref=e606]
+                    - option "Create an NGINXaaS resource - Azure Native Integrations" [ref=e608] [cursor=pointer]:
+                      - generic [ref=e609]:
+                        - generic [ref=e612]: Create an NGINXaaS resource - Azure Native Integrations
+                        - img [ref=e615]
+            - group "Didn't find what you were looking for?" [ref=e618]:
+              - option "Continue searching in Microsoft Entra ID" [ref=e619] [cursor=pointer]:
+                - generic [ref=e620]:
+                  - img [ref=e622]
+                  - generic [ref=e624]: Continue searching in Microsoft Entra ID
+            - generic [ref=e512]:
+              - generic [ref=e513]: Searching all subscriptions.
+              - link "Change" [ref=e514] [cursor=pointer]:
+                - /url: "#menu/subscriptions"
+              - generic [ref=e515] [cursor=pointer]:
+                - img [ref=e517]
+                - button "Give feedback" [ref=e519]
+      - button "Copilot" [ref=e21] [cursor=pointer]:
+        - img [ref=e23]
+        - generic [ref=e25]: Copilot
+      - button "More portal tools" [ref=e28] [cursor=pointer]:
+        - img [ref=e30]
+      - button "Account menu Currently signed in as v-yixueli@microsoft.com, under Microsoft (microsoft.onmicrosoft.com) tenant" [ref=e33] [cursor=pointer]:
+        - 'generic "Name: Yixue Li Email: v-yixueli@microsoft.com Directory: Microsoft (72f988bf-86f1-41af-91ab-2d7cd011db47) Domain: microsoft.onmicrosoft.com Your sign in used multifactor authentication." [ref=e34]':
+          - img [ref=e37]
+    - main [ref=e42]:
+      - generic [ref=e45]:
+        - heading "Azure services" [level=3] [ref=e46]
+        - grid "Azure services" [ref=e47]:
+          - row "Create a resource NGINXaaS Virtual networks Storage accounts Key vaults Managed Identities Resource groups DNS zones Public IP addresses More services" [ref=e48]:
+            - gridcell "Create a resource" [ref=e49] [cursor=pointer]:
+              - link "Create a resource" [ref=e50]:
+                - /url: "#create/hub"
+                - img [ref=e52]
+                - generic [ref=e55]: Create a resource
+            - gridcell "NGINXaaS" [ref=e56] [cursor=pointer]:
+              - link "NGINXaaS" [ref=e57]:
+                - /url: "#blade/HubsExtension/BrowseResourceBlade/resourceType/NGINX.NGINXPLUS%2FnginxDeployments"
+                - img [ref=e59]
+                - generic [ref=e61]: NGINXaaS
+            - gridcell "Virtual networks" [ref=e62] [cursor=pointer]:
+              - link "Virtual networks" [ref=e63]:
+                - /url: "#view/HubsExtension/AssetMenuBlade/~/virtualnetworks/assetName/NetworkFoundation/extensionName/Microsoft_Azure_Network"
+                - img [ref=e65]
+                - generic [ref=e67]: Virtual networks
+            - gridcell "Storage accounts" [ref=e68] [cursor=pointer]:
+              - link "Storage accounts" [ref=e69]:
+                - /url: "#view/Microsoft_Azure_StorageHub/StorageHub.MenuView/~/StorageAccountsBrowse"
+                - img [ref=e71]
+                - generic [ref=e73]: Storage accounts
+            - gridcell "Key vaults" [ref=e74] [cursor=pointer]:
+              - link "Key vaults" [ref=e75]:
+                - /url: "#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.KeyVault%2Fvaults"
+                - img [ref=e77]
+                - generic [ref=e79]: Key vaults
+            - gridcell "Managed Identities" [ref=e80] [cursor=pointer]:
+              - link "Managed Identities" [ref=e81]:
+                - /url: "#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.ManagedIdentity%2FuserAssignedIdentities"
+                - img [ref=e83]
+                - generic [ref=e85]: Managed Identities
+            - gridcell "Resource groups" [ref=e86] [cursor=pointer]:
+              - link "Resource groups" [ref=e87]:
+                - /url: "#view/HubsExtension/ServiceMenuBlade/extension/Microsoft_Azure_Resources/menuId/ResourceManager/itemId/resourcegroups"
+                - img [ref=e89]
+                - generic [ref=e91]: Resource groups
+            - gridcell "DNS zones" [ref=e92] [cursor=pointer]:
+              - link "DNS zones" [ref=e93]:
+                - /url: "#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Network%2FdnsZones"
+                - img [ref=e95]
+                - generic [ref=e97]: DNS zones
+            - gridcell "Public IP addresses" [ref=e98] [cursor=pointer]:
+              - link "Public IP addresses" [ref=e99]:
+                - /url: "#view/HubsExtension/AssetMenuBlade/~/PublicIPAddresses/assetName/NetworkFoundation/extensionName/Microsoft_Azure_Network"
+                - img [ref=e101]
+                - generic [ref=e103]: Public IP addresses
+            - gridcell "More services" [ref=e104] [cursor=pointer]:
+              - link "More services" [ref=e105]:
+                - /url: "#allservices"
+                - img [ref=e107]
+                - generic [ref=e110]: More services
+        - heading "Resources" [level=3] [ref=e111]
+        - generic [ref=e113]:
+          - tablist [ref=e115]:
+            - tab "Recent" [selected] [ref=e116] [cursor=pointer]:
+              - generic [ref=e118]: Recent
+            - tab "Favorite" [ref=e119] [cursor=pointer]:
+              - generic [ref=e121]: Favorite
+          - tabpanel [ref=e122]:
+            - grid "Resources" [ref=e125]:
+              - row "Name Type Last Viewed" [ref=e126]:
+                - columnheader "Name" [ref=e127]
+                - columnheader "Type" [ref=e128]
+                - columnheader "Last Viewed" [ref=e129]
+              - row "lyx-liftr-test Resource group 46 minutes ago" [ref=e130]:
+                - gridcell "lyx-liftr-test" [ref=e131]:
+                  - img [ref=e134]
+                  - link "lyx-liftr-test" [ref=e137] [cursor=pointer]:
+                    - /url: "#@microsoft.onmicrosoft.com/asset/HubsExtension/ResourceGroups/subscriptions/e3853e83-0d02-4fb3-b88f-05b5fd21aee2/resourceGroups/lyx-liftr-test"
+                - gridcell "Resource group" [ref=e138]
+                - gridcell "46 minutes ago" [ref=e139]
+              - row "lyxsa Storage account an hour ago" [ref=e140]:
+                - gridcell "lyxsa" [ref=e141]:
+                  - img [ref=e144]
+                  - link "lyxsa" [ref=e147] [cursor=pointer]:
+                    - /url: "#@microsoft.onmicrosoft.com/asset/Microsoft_Azure_Storage/StorageAccount/subscriptions/e3853e83-0d02-4fb3-b88f-05b5fd21aee2/resourceGroups/lyx-liftr-test/providers/Microsoft.Storage/storageAccounts/lyxsa"
+                - gridcell "Storage account" [ref=e148]
+                - gridcell "an hour ago" [ref=e149]
+              - row "lyx-vnet02 Virtual network 6 hours ago" [ref=e150]:
+                - gridcell "lyx-vnet02" [ref=e151]:
+                  - img [ref=e154]
+                  - link "lyx-vnet02" [ref=e157] [cursor=pointer]:
+                    - /url: "#@microsoft.onmicrosoft.com/asset/Microsoft_Azure_Network/VirtualNetwork/subscriptions/e3853e83-0d02-4fb3-b88f-05b5fd21aee2/resourceGroups/lyx-liftr-test/providers/Microsoft.Network/virtualNetworks/lyx-vnet02"
+                - gridcell "Virtual network" [ref=e158]
+                - gridcell "6 hours ago" [ref=e159]
+              - row "lyx-vnet01 Virtual network 6 hours ago" [ref=e160]:
+                - gridcell "lyx-vnet01" [ref=e161]:
+                  - img [ref=e164]
+                  - link "lyx-vnet01" [ref=e167] [cursor=pointer]:
+                    - /url: "#@microsoft.onmicrosoft.com/asset/Microsoft_Azure_Network/VirtualNetwork/subscriptions/e3853e83-0d02-4fb3-b88f-05b5fd21aee2/resourceGroups/lyx-liftr-test/providers/Microsoft.Network/virtualNetworks/lyx-vnet01"
+                - gridcell "Virtual network" [ref=e168]
+                - gridcell "6 hours ago" [ref=e169]
+              - row "lyx-kv-0423 Key vault 6 hours ago" [ref=e170]:
+                - gridcell "lyx-kv-0423" [ref=e171]:
+                  - img [ref=e174]
+                  - link "lyx-kv-0423" [ref=e177] [cursor=pointer]:
+                    - /url: "#@microsoft.onmicrosoft.com/asset/Microsoft_Azure_KeyVault/KeyVault/subscriptions/e3853e83-0d02-4fb3-b88f-05b5fd21aee2/resourceGroups/lyx-liftr-test/providers/Microsoft.KeyVault/vaults/lyx-kv-0423"
+                - gridcell "Key vault" [ref=e178]
+                - gridcell "6 hours ago" [ref=e179]
+              - row "lyx-mi02-0423 Managed Identity 6 hours ago" [ref=e180]:
+                - gridcell "lyx-mi02-0423" [ref=e181]:
+                  - img [ref=e184]
+                  - link "lyx-mi02-0423" [ref=e187] [cursor=pointer]:
+                    - /url: "#@microsoft.onmicrosoft.com/asset/Microsoft_Azure_ManagedServiceIdentity/UserAssignedIdentity/subscriptions/e3853e83-0d02-4fb3-b88f-05b5fd21aee2/resourceGroups/lyx-liftr-test/providers/Microsoft.ManagedIdentity/userAssignedIdentities/lyx-mi02-0423"
+                - gridcell "Managed Identity" [ref=e188]
+                - gridcell "6 hours ago" [ref=e189]
+              - row "lyx-mi-0423 Managed Identity 6 hours ago" [ref=e190]:
+                - gridcell "lyx-mi-0423" [ref=e191]:
+                  - img [ref=e194]
+                  - link "lyx-mi-0423" [ref=e197] [cursor=pointer]:
+                    - /url: "#@microsoft.onmicrosoft.com/asset/Microsoft_Azure_ManagedServiceIdentity/UserAssignedIdentity/subscriptions/e3853e83-0d02-4fb3-b88f-05b5fd21aee2/resourceGroups/lyx-liftr-test/providers/Microsoft.ManagedIdentity/userAssignedIdentities/lyx-mi-0423"
+                - gridcell "Managed Identity" [ref=e198]
+                - gridcell "6 hours ago" [ref=e199]
+              - row "lyx-dev0715 Resource group 2 weeks ago" [ref=e200]:
+                - gridcell "lyx-dev0715" [ref=e201]:
+                  - img [ref=e204]
+                  - link "lyx-dev0715" [ref=e207] [cursor=pointer]:
+                    - /url: "#@microsoft.onmicrosoft.com/asset/HubsExtension/ResourceGroups/subscriptions/2d5eedc9-8509-41fe-aac8-f16d54583ac6/resourceGroups/lyx-dev0715"
+                - gridcell "Resource group" [ref=e208]
+                - gridcell "2 weeks ago" [ref=e209]
+              - row "la-lyx-westcentralus Resource group 2 weeks ago" [ref=e210]:
+                - gridcell "la-lyx-westcentralus" [ref=e211]:
+                  - img [ref=e214]
+                  - link "la-lyx-westcentralus" [ref=e217] [cursor=pointer]:
+                    - /url: "#@microsoft.onmicrosoft.com/asset/HubsExtension/ResourceGroups/subscriptions/2d5eedc9-8509-41fe-aac8-f16d54583ac6/resourceGroups/la-lyx-westcentralus"
+                - gridcell "Resource group" [ref=e218]
+                - gridcell "2 weeks ago" [ref=e219]
+              - row "Liftr-Nginx-Test Subscription a month ago" [ref=e220]:
+                - gridcell "Liftr-Nginx-Test" [ref=e221]:
+                  - img [ref=e224]
+                  - link "Liftr-Nginx-Test" [ref=e227] [cursor=pointer]:
+                    - /url: "#@microsoft.onmicrosoft.com/asset/Microsoft_Azure_Billing/Subscription/subscriptions/e3853e83-0d02-4fb3-b88f-05b5fd21aee2"
+                - gridcell "Subscription" [ref=e228]
+                - gridcell "a month ago" [ref=e229]
+              - row "DefaultWorkspace-e3853e83-0d02-4fb3-b88f-05b5fd21aee2-EUS Log Analytics workspace 2 months ago" [ref=e230]:
+                - gridcell "DefaultWorkspace-e3853e83-0d02-4fb3-b88f-05b5fd21aee2-EUS" [ref=e231]:
+                  - img [ref=e234]
+                  - link "DefaultWorkspace-e3853e83-0d02-4fb3-b88f-05b5fd21aee2-EUS" [ref=e237] [cursor=pointer]:
+                    - /url: "#@microsoft.onmicrosoft.com/asset/Microsoft_OperationsManagementSuite_Workspace/Workspace/subscriptions/e3853e83-0d02-4fb3-b88f-05b5fd21aee2/resourceGroups/DefaultResourceGroup-EUS/providers/Microsoft.OperationalInsights/workspaces/DefaultWorkspace-e3853e83-0d02-4fb3-b88f-05b5fd21aee2-EUS"
+                - gridcell "Log Analytics workspace" [ref=e238]
+                - gridcell "2 months ago" [ref=e239]
+              - row "sofwiti-test Resource group 3 months ago" [ref=e240]:
+                - gridcell "sofwiti-test" [ref=e241]:
+                  - img [ref=e244]
+                  - link "sofwiti-test" [ref=e247] [cursor=pointer]:
+                    - /url: "#@microsoft.onmicrosoft.com/asset/HubsExtension/ResourceGroups/subscriptions/e3853e83-0d02-4fb3-b88f-05b5fd21aee2/resourceGroups/sofwiti-test"
+                - gridcell "Resource group" [ref=e248]
+                - gridcell "3 months ago" [ref=e249]
+              - link "See all" [ref=e250] [cursor=pointer]:
+                - /url: "#view/HubsExtension/ServiceMenuBlade/extension/Microsoft_Azure_Resources/menuId/ResourceManager/itemId/recents"
+        - heading "Navigate" [level=3] [ref=e251]
+        - grid "Navigate" [ref=e252]:
+          - row "Subscriptions Resource groups All resources Dashboard" [ref=e253]:
+            - gridcell "Subscriptions" [ref=e254]:
+              - link "Subscriptions" [ref=e255] [cursor=pointer]:
+                - /url: "#view/HubsExtension/ServiceMenuBlade/extension/Microsoft_Azure_Resources/menuId/ResourceManager/itemId/subscriptions"
+                - img [ref=e257]
+                - generic [ref=e259]: Subscriptions
+            - gridcell "Resource groups" [ref=e260]:
+              - link "Resource groups" [ref=e261] [cursor=pointer]:
+                - /url: "#view/HubsExtension/ServiceMenuBlade/extension/Microsoft_Azure_Resources/menuId/ResourceManager/itemId/resourcegroups"
+                - img [ref=e263]
+                - generic [ref=e265]: Resource groups
+            - gridcell "All resources" [ref=e266]:
+              - link "All resources" [ref=e267] [cursor=pointer]:
+                - /url: "#view/HubsExtension/ServiceMenuBlade/extension/Microsoft_Azure_Resources/menuId/ResourceManager/itemId/browseAll"
+                - img [ref=e269]
+                - generic [ref=e271]: All resources
+            - gridcell "Dashboard" [ref=e272]:
+              - link "Dashboard" [ref=e273] [cursor=pointer]:
+                - /url: "#dashboard"
+                - img [ref=e275]
+                - generic [ref=e277]: Dashboard
+        - heading "Tools" [level=3] [ref=e278]
+        - grid "Tools" [ref=e279]:
+          - row "Microsoft Learn Azure Monitor Microsoft Defender for Cloud Cost Management" [ref=e280]:
+            - gridcell "Microsoft Learn" [ref=e281]:
+              - link "Microsoft Learn" [ref=e282] [cursor=pointer]:
+                - /url: https://aka.ms/homemslearn
+                - img [ref=e285]
+                - generic [ref=e287]:
+                  - generic [ref=e288]:
+                    - text: Microsoft Learn
+                    - img [ref=e290]
+                  - generic [ref=e293]: Learn Azure with free online training from Microsoft
+            - gridcell "Azure Monitor" [ref=e294]:
+              - link "Azure Monitor" [ref=e295] [cursor=pointer]:
+                - /url: "#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade"
+                - img [ref=e298]
+                - generic [ref=e300]:
+                  - generic [ref=e301]: Azure Monitor
+                  - generic [ref=e303]: Monitor your apps and infrastructure
+            - gridcell "Microsoft Defender for Cloud" [ref=e304]:
+              - link "Microsoft Defender for Cloud" [ref=e305] [cursor=pointer]:
+                - /url: "#blade/Microsoft_Azure_Security/SecurityMenuBlade"
+                - img [ref=e308]
+                - generic [ref=e310]:
+                  - generic [ref=e311]: Microsoft Defender for Cloud
+                  - generic [ref=e313]: Secure your apps and infrastructure
+            - gridcell "Cost Management" [ref=e314]:
+              - link "Cost Management" [ref=e315] [cursor=pointer]:
+                - /url: "#blade/Microsoft_Azure_CostManagement/Menu/openedBy/AzurePortal"
+                - img [ref=e318]
+                - generic [ref=e320]:
+                  - generic [ref=e321]: Cost Management
+                  - generic [ref=e323]: Analyze and optimize your cloud spend for free
+        - generic [ref=e324]:
+          - generic [ref=e325]:
+            - heading "Useful links" [level=3] [ref=e326]
+            - generic [ref=e327]:
+              - link "Technical Documentation" [ref=e329] [cursor=pointer]:
+                - /url: https://aka.ms/hometechnicaldocumentation
+                - text: Technical Documentation
+                - img [ref=e331]
+              - link "Azure Services" [ref=e334] [cursor=pointer]:
+                - /url: https://go.microsoft.com/fwlink/?linkid=2009591
+                - text: Azure Services
+                - img [ref=e336]
+              - link "Recent Azure Updates" [ref=e339] [cursor=pointer]:
+                - /url: https://go.microsoft.com/fwlink/?linkid=2043134
+                - text: Recent Azure Updates
+                - img [ref=e341]
+              - link "Azure Migration Tools" [ref=e344] [cursor=pointer]:
+                - /url: "#blade/Microsoft_Azure_Migrate/AmhResourceMenuBlade/overview"
+              - link "Find an Azure expert" [ref=e346] [cursor=pointer]:
+                - /url: "#blade/Microsoft_Azure_CustomerHub/ServiceProvidersBlade/overview"
+              - link "Quickstart Center" [ref=e348] [cursor=pointer]:
+                - /url: "#blade/Microsoft_Azure_Resources/QuickstartCenterBlade"
+          - generic [ref=e349]:
+            - heading "Azure mobile app" [level=3] [ref=e350]
+            - generic [ref=e351]:
+              - link "Download on the App Store" [ref=e352] [cursor=pointer]:
+                - /url: https://itunes.apple.com/app/microsoft-azure/id1219013620?ls=1&mt=8
+                - img "Download on the App Store" [ref=e353]
+              - link "Get it on Google Play" [ref=e354] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.microsoft.azure
+                - img "Get it on Google Play" [ref=e355]
+  - generic:
+    - generic:
+      - generic: List of search results
+  - img [ref=e356]
+  - img [ref=e357]
+  - img [ref=e358]
+  - img [ref=e359]
+  - img [ref=e360]
+  - img [ref=e361]
+  - img [ref=e362]
+  - img [ref=e363]
+  - img [ref=e364]
+  - img [ref=e365]
+  - img [ref=e366]
+  - img [ref=e367]
+  - img [ref=e368]
+  - img [ref=e369]
+  - img [ref=e370]
+  - img [ref=e371]
+  - img [ref=e372]
+  - img [ref=e373]
+  - img [ref=e374]
+  - img [ref=e375]
+  - img [ref=e376]
+  - img [ref=e377]
+  - img [ref=e378]
+  - img [ref=e379]
+  - img [ref=e380]
+  - img [ref=e381]
+  - img [ref=e382]
+  - img [ref=e383]
+  - img [ref=e384]
+  - img [ref=e385]
+  - img [ref=e386]
+  - img [ref=e387]
+  - img [ref=e520]
+  - img [ref=e521]
+  - img [ref=e625]
+  - img [ref=e626]
+  - img [ref=e627]
+  - img [ref=e628]
+  - img [ref=e629]

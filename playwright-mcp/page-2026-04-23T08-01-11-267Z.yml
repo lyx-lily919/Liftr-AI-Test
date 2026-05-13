@@ -1,0 +1,206 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - button "Skip to main content"
+    - banner "Microsoft Azure" [ref=e3]:
+      - button "Show Microsoft Cloud menu" [ref=e5] [cursor=pointer]:
+        - img [ref=e7]
+      - button "Show portal menu" [ref=e9] [cursor=pointer]:
+        - img [ref=e10]
+      - heading "Microsoft Azure" [level=1] [ref=e12]:
+        - link "Microsoft Azure" [ref=e13] [cursor=pointer]:
+          - /url: "#home"
+      - search [ref=e14]:
+        - generic [ref=e15]:
+          - img [ref=e17]
+          - combobox "Search resources, services, and docs (G+/)" [expanded] [ref=e388]
+      - button "Copilot" [ref=e21] [cursor=pointer]:
+        - img [ref=e23]
+        - generic [ref=e25]: Copilot
+      - button "More portal tools" [ref=e28] [cursor=pointer]:
+        - img [ref=e30]
+      - button "Account menu Currently signed in as v-yixueli@microsoft.com, under Microsoft (microsoft.onmicrosoft.com) tenant" [ref=e33] [cursor=pointer]:
+        - 'generic "Name: Yixue Li Email: v-yixueli@microsoft.com Directory: Microsoft (72f988bf-86f1-41af-91ab-2d7cd011db47) Domain: microsoft.onmicrosoft.com Your sign in used multifactor authentication." [ref=e34]':
+          - img [ref=e37]
+    - main [ref=e42]:
+      - generic [ref=e630]:
+        - navigation "Navigation history" [ref=e633]:
+          - navigation "breadcrumb" [ref=e636]:
+            - list [ref=e637]:
+              - listitem [ref=e638]:
+                - link "Home" [ref=e639] [cursor=pointer]:
+                  - /url: "#home"
+                - img [ref=e707]
+              - listitem [ref=e709]:
+                - link "NGINXaaS" [ref=e710] [cursor=pointer]:
+                  - /url: "#view/HubsExtension/BrowseResource.ReactView/resourceType/NGINX.NGINXPLUS%2FnginxDeployments"
+        - region "Create NGINXaaS" [ref=e711]:
+          - generic "Create NGINXaaS" [ref=e714]:
+            - generic [ref=e717]:
+              - heading "Create NGINXaaS" [level=2] [ref=e718]: Create NGINXaaS
+              - generic [ref=e719]:
+                - button "More content actions" [ref=e721] [cursor=pointer]:
+                  - img [ref=e724]
+                - button "Close content 'Create NGINXaaS'" [ref=e727] [cursor=pointer]:
+                  - img [ref=e730]
+          - generic [ref=e743]:
+            - generic [ref=e745]:
+              - generic [ref=e746]:
+                - tablist [ref=e747]:
+                  - tab "Basics" [active] [selected] [ref=e748] [cursor=pointer]:
+                    - generic [ref=e750]: Basics
+                  - tab "Networking" [ref=e751] [cursor=pointer]:
+                    - generic [ref=e753]: Networking
+                  - tab "Tags" [ref=e754] [cursor=pointer]:
+                    - generic [ref=e756]: Tags
+                  - tab "Review + create" [ref=e757] [cursor=pointer]:
+                    - generic [ref=e759]: Review + create
+                - generic: Required
+              - tabpanel "Basics" [ref=e760]:
+                - article [ref=e763]:
+                  - paragraph [ref=e764]:
+                    - strong [ref=e765]: NGINXaaS is an Azure-native solution co-developed by F5 and Microsoft
+                    - text: With NGINXaaS, you can bring your existing NGINX configurations into the cloud. This seamless extension into Azure enables multi-cloud and hybrid solutions with the load balancer you know well and trust -- NGINX. You can access this fully-managed service from the Azure portal, CLI, SDK, ARM, and Terraform. NGINXaaS is also integrated with core Azure services such as Azure Key Vault and Azure Monitor for a first-party like experience on the Azure platform.
+                  - paragraph [ref=e766]:
+                    - strong [ref=e767]: Layer 7 load balancer with advanced security
+                    - text: NGINXaaS supports TLS 1.3, SSO, and JSON web token authentication.
+                  - paragraph [ref=e768]:
+                    - strong [ref=e769]: Consumption-based pricing
+                    - text: Pay-as-you-go pricing to better align infrastructure costs to actual usage, in addition to discounts via private offers.
+                - generic [ref=e770]:
+                  - heading "Project details" [level=2] [ref=e772]
+                  - generic [ref=e774]: Select the subscription to manage deployed resources and costs. Use resource groups like folders to organize and manage all your resources.
+                  - group [ref=e775]:
+                    - generic [ref=e776]:
+                      - text: Subscription
+                      - button "Subscription Subscription" [ref=e783] [cursor=pointer]:
+                        - img [ref=e786]
+                    - generic [ref=e791]:
+                      - combobox "Subscription" [ref=e793] [cursor=pointer]: Liftr-Nginx-Test
+                      - button "Toggle" [ref=e794] [cursor=pointer]:
+                        - generic:
+                          - img
+                  - group [ref=e795]:
+                    - generic [ref=e796]:
+                      - text: Resource group
+                      - button "Resource group" [ref=e798] [cursor=pointer]:
+                        - img [ref=e801]
+                    - generic [ref=e805]:
+                      - generic [ref=e806]:
+                        - combobox "Create new or use existing Resource group" [disabled] [ref=e808]: Loading...
+                        - button "Toggle" [ref=e809]:
+                          - generic:
+                            - img
+                      - 'button "Resource group: Create new" [ref=e814] [cursor=pointer]': Create new
+                  - heading "Instance details" [level=2] [ref=e816]
+                  - generic [ref=e817]:
+                    - generic [ref=e818]:
+                      - generic [ref=e819]: Name
+                      - button "Name Name" [ref=e826] [cursor=pointer]:
+                        - img [ref=e829]
+                    - textbox "Name" [ref=e837]:
+                      - /placeholder: ""
+                  - group [ref=e839]:
+                    - generic [ref=e840]:
+                      - text: Region
+                      - button "Region Region" [ref=e842] [cursor=pointer]:
+                        - img [ref=e845]
+                    - generic [ref=e850]:
+                      - combobox "Region" [disabled] [ref=e852]: Loading...
+                      - button "Toggle" [ref=e853]:
+                        - generic:
+                          - img
+                - generic [ref=e854]:
+                  - heading "Billing Details" [level=2] [ref=e856]
+                  - generic [ref=e857]:
+                    - generic [ref=e858]:
+                      - text: Pricing Plan
+                      - button "Pricing Plan Pricing Plan" [ref=e865] [cursor=pointer]:
+                        - img [ref=e868]
+                    - button "Pricing Plan Select pricing plan" [ref=e875] [cursor=pointer]: Select pricing plan
+                - generic [ref=e876]:
+                  - heading "Support Contact" [level=2] [ref=e878]
+                  - generic [ref=e879]:
+                    - generic [ref=e880]:
+                      - generic [ref=e881]: Email
+                      - button "Email Email" [ref=e883] [cursor=pointer]:
+                        - img [ref=e886]
+                    - textbox "Email" [ref=e894]:
+                      - /placeholder: ""
+                - generic [ref=e895]:
+                  - heading "Upgrade Settings" [level=2] [ref=e897]
+                  - generic [ref=e898]:
+                    - generic [ref=e899]:
+                      - text: Upgrade Channel
+                      - button "Upgrade Channel Upgrade Channel" [ref=e901] [cursor=pointer]:
+                        - img [ref=e904]
+                    - generic [ref=e909]:
+                      - combobox "Upgrade Channel" [ref=e911] [cursor=pointer]: Stable
+                      - button "Toggle" [ref=e912] [cursor=pointer]:
+                        - generic:
+                          - img
+            - generic [ref=e913]:
+              - button "Previous" [disabled] [ref=e915]:
+                - generic [ref=e916]: Previous
+              - button "Next" [ref=e918] [cursor=pointer]:
+                - generic [ref=e919]: Next
+              - button "Review + create" [ref=e921] [cursor=pointer]:
+                - generic [ref=e922]: Review + create
+              - link "Give feedback" [ref=e923] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e925]
+                - text: Give feedback
+  - generic:
+    - generic:
+      - generic: Content is loading.
+      - generic: Content is ready.
+  - img [ref=e356]
+  - img [ref=e357]
+  - img [ref=e358]
+  - img [ref=e359]
+  - img [ref=e360]
+  - img [ref=e361]
+  - img [ref=e362]
+  - img [ref=e363]
+  - img [ref=e364]
+  - img [ref=e365]
+  - img [ref=e366]
+  - img [ref=e367]
+  - img [ref=e368]
+  - img [ref=e369]
+  - img [ref=e370]
+  - img [ref=e371]
+  - img [ref=e372]
+  - img [ref=e373]
+  - img [ref=e374]
+  - img [ref=e375]
+  - img [ref=e376]
+  - img [ref=e377]
+  - img [ref=e378]
+  - img [ref=e379]
+  - img [ref=e380]
+  - img [ref=e381]
+  - img [ref=e382]
+  - img [ref=e383]
+  - img [ref=e384]
+  - img [ref=e385]
+  - img [ref=e386]
+  - img [ref=e387]
+  - img [ref=e520]
+  - img [ref=e521]
+  - img [ref=e625]
+  - img [ref=e626]
+  - img [ref=e627]
+  - img [ref=e628]
+  - img [ref=e629]
+  - img [ref=e692]
+  - img [ref=e693]
+  - img [ref=e694]
+  - img [ref=e695]
+  - img [ref=e696]
+  - img [ref=e697]
+  - img [ref=e698]
+  - img [ref=e699]
+  - img [ref=e700]
+  - img [ref=e701]
+  - img [ref=e927]
+  - img [ref=e928]

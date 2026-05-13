@@ -1,0 +1,33 @@
+- generic [ref=e5]:
+  - img "Organization background image" [ref=e7]
+  - generic [ref=e8]:
+    - generic [ref=e14]:
+      - img "Microsoft" [ref=e17]
+      - main [ref=e18]:
+        - generic [ref=e21]:
+          - generic [ref=e24]:
+            - heading "Pick an account" [level=1] [ref=e25]
+            - generic [ref=e26]: to continue to Microsoft Azure
+          - list "Pick an account to continue to Microsoft Azure" [ref=e29]:
+            - listitem [ref=e31] [cursor=pointer]:
+              - button "Sign in with v-yixueli@microsoft.com work or school account." [active] [ref=e32]:
+                - generic [ref=e35]:
+                  - generic [ref=e36]: Yixue Li (WICRESOFT NORTH AMERICA LTD)
+                  - generic [ref=e37]: v-yixueli@microsoft.com
+                  - generic [ref=e38]: Connected to Windows
+            - listitem [ref=e40] [cursor=pointer]:
+              - button "Sign in with yixuelie@wicresoft.com work or school account." [ref=e41]:
+                - generic [ref=e44]:
+                  - generic [ref=e45]: Lily Li
+                  - generic [ref=e46]: yixuelie@wicresoft.com
+                  - generic [ref=e47]: Connected to Windows
+            - listitem [ref=e48] [cursor=pointer]:
+              - button "Use another account" [ref=e49]:
+                - generic [ref=e53]: Use another account
+    - contentinfo [ref=e54]:
+      - generic [ref=e55]:
+        - link "Terms of use" [ref=e56] [cursor=pointer]:
+          - /url: https://www.microsoft.com/en-US/servicesagreement/
+        - link "Privacy & cookies" [ref=e57] [cursor=pointer]:
+          - /url: https://privacy.microsoft.com/en-US/privacystatement
+        - button "Click here for troubleshooting information" [ref=e58] [cursor=pointer]: ...
