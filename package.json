@@ -1,0 +1,11 @@
+{
+  "name": "liftr-ai-test",
+  "version": "1.0.0",
+  "description": "NginxaaS Playwright Tests",
+  "scripts": {
+    "test": "node test-nginxaas.js"
+  },
+  "dependencies": {
+    "playwright": "^1.59.1"
+  }
+}
